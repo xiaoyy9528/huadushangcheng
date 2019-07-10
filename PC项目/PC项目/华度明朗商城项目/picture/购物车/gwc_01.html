@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="gwc_01.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="kd">
+        </div>
+
+        <!-- 我的购物车 -->
+        <div class="orderMenu">
+            我的购物车
+            <span>
+        <a href="#">请登录</a>
+        <a>|</a>
+        <a href="#">免费注册</a>
+        </span>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="wrap">
+        <div class="suc">
+            <img src="step1.jpg" width="536px; height:45px;">
+        </div>
+
+        <div class="carDetail">
+            <div class="cBc" style="background-color:#f4f4f4; height:35px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="width:70px; height:35px;">
+                                <input onclick="selectALL()" type="checkbox" name="controAll" id="controAll">
+                            </td>
+                            <td style="width:240px; height:35px;">商品</td>
+                            <td style="width:80px; height:35px;">颜色</td>
+                            <td style="width:100px; height:35px;">单价</td>
+                            <td style="width:80px; height:35px;">数量</td>
+                            <td style="width:80px; height:35px;">购买数量</td>
+                            <td style="width:100px; height:35px;">小计</td>
+                            <td style="width:60px; height:35px;">操作</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <table id="tabdocument"></table>
+            <div class="carBottom">
+                <div class="allPrice">
+                    <div class="allPrice">
+                        商品总价（含运费）:
+                        <span id="LblTotal">0</span>
+                    </div>
+                    <!-- <img src=""> -->
+                </div>
+            </div>
+            <div class="carIco">
+                <a href="#">
+                    <img src="btn_goon.jpg">
+                </a>
+                &nbsp;
+                <input type="image" name="ImageBtnGoOn" id="ImageBtnGoOn" src="btn_gojs.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <br>
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+ <head>
+   <meta charset="utf-8">
+    <title>官方商城-华度明朗</title>
+		<style>
+			*{margin:0;padding:0;}
+			/*共用属性*/
+			.top01{height:30px;
+			background:#e1e4e3;
+			font-size:12px;
+			padding:0 210px;
+			display:flex;
+			justify-content:space-around;
+			
+			}
+			.top02{
+			width:945px;height:30px;
+			color:#898181;
+			font-size:12px;
+			line-height:30px;
+			float:left;
+			margin-left:-30px;
+		}
+			.top04{width:25px;height:17px;
+				  vertical-align:middle;
+					
+					}
+			.top05{width:25px;height:17px;
+					vertical-align:middle;
+			}
+			.zc01{font-size:14px;color:#848282;
+						text-decoration:none;
+			}
+			.top03{
+				width:200px;height:30px;
+				float:right;
+				line-height:30px;
+				margin-right:35px;
+			}
+			.yb01{color:#898181;
+				text-decoration:none;
+			}
+			/*头部02*/
+			.top_02{
+				width:1518px;height:89px;
+				margin:0 auto;
+				/*把父元素变成容器*/
+				display:flex;
+				/*两端对齐*/
+				justify-content:space-around;
+				position:relative;
+				}
+				.top_02>img{width:300px;height:89px;
+					position:absolute;
+					left:170px;}
+				.top_03{
+					width:847px;height:89px;
+					position:relative;
+					left:320px;
+				}
+				/*搜索框*/
+				.top_04{
+				width:343px;height:33px;
+				display:inline-block;/*并列一行*/
+				background:url(input.jpg);/*input背景图片*/
+				position:absolute;
+				top:37px;
+				}
+				#put01{width:296px;height:29px;
+				margin-left:43px;border-radius:3px;}
+				/*账户中心，查看购物车*/
+				/*.top_03{width:847px;height:89px;margin-top:37px;}*/
+				.top_05{width:300px;height:33px;
+				display:inline-block;
+				position:absolute;
+				top:35px;right:204px;}
+				#p2{position:absolute;right:15px;}
+			/*top-03横向导航栏*/
+			.top3-1{width:100%;height:35px;
+			background-color:#2D5540;position:relative;}
+			.top3-1>img{width:223px;height:35px;position:absolute;left:365px;}/*图片*/
+			.top3-02{width:917px;height:35px;position:relative;float:left;}
+			.toc-01{width:705px;height:35px;list-style:none;line-height:35px;position:absolute;left:645px;}
+			.toc-01>li{float:left;margin-left:70px;}
+			.toc-01>li>a{color:#ece3e3;font-size:14px;text-decoration:none;}
+			/*纵向导航栏*/
+			.zxdh03{width:100%;height:372px;background-color:#05171b;}
+			.zxdh01{width:223px;height:372px;
+				position:absolute;margin-top:35px;
+				background-color:#cfcfcf;
+				
+		}
+		</style>
+ </head>
+<body>
+	<div class="top01">
+		<div></div>
+		<div class="top02">
+		你好，欢迎光临华度明朗官方商城&nbsp;&nbsp;&nbsp;&nbsp;
+			<img class="top04" src="dl.jpg" alt="po">
+		<a class="zc01" href="#">注册</a>
+			<img class="top05" src="zc.jpg" alt="po">
+		<a class="zc01" href="#">登录</a>
+		</div>
+		<div class="top03">
+			<a class="yb01" href="#">返回官网&nbsp|</a>
+			<a class="yb01" href="#">&nbsp加入收藏</a>
+		</div>
+	</div>
+<!-- 	top02 -->
+	<div class="top_02">
+		<img src="hd_logo.jpg" alt="">
+		<div class="top_03">
+			<div class="top_04">
+				<input id="put01" type="text" placeholder="输入关键搜索词">
+			</div>
+			<div class="top_05">
+			<a href="#"><img src="sousuo.jpg" alt=""></a>
+			<a id="p1" href="#"><img src="zhtp.jpg" alt=""></a>
+			<a id="p2" href="#"><img src="gwc.jpg" alt=""></a>
+			</div>
+		</div>
+	</div>
+<!-- top-03	 -->
+			<div class="top3-1">
+				<img src="shop_xgzx.jpg" alt="">
+					<div class="top3-02">
+						<ul class="toc-01">
+							<li><a href="#">商城首页</a></li>
+							<li><a href="#">新品推荐</a></li>
+							<li><a href="#">热卖精品</a></li>
+							<li><a href="#">新品发布</a></li>
+							<li><a href="#">产品分类</a></li>
+						</ul>
+					</div>
+			</div>
+<!-- 分类 -->
+<div class="zxdh03">
+<div class="zxdh01">
+<ul class="zxdh02">
+	<li>
+		<div>
+			<a href="#">新品推荐</a>
+		</div>
+			<div>
+				<a href="#">子分类1</a>
+				<a href="#">子分类2</a>
+				<a href="#">子分类3</a>
+			</div>
+	</li>
+		<li>
+			<div>
+				<a href="#">热卖精品</a>
+			</div>
+				<div>
+					<a href="#">子分类1</a>
+					<a href="#">子分类2</a>
+					<a href="#">子分类3</a>
+				</div>
+		</li>
+			<li>
+				<div>
+				<a href="#">新品发布</a>
+				</div>
+					<div>
+						<a href="#">子分类1</a>
+						<a href="#">子分类2</a>
+						<a href="#">子分类3</a>
+					</div>
+			</li>
+				<li>
+					<div>
+						<a href="#">产品发布</a>
+					</div>
+						<div>
+							<a href="#">子分类</a>
+						</div>
+				</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
